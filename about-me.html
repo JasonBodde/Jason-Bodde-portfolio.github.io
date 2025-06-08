@@ -20,10 +20,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="about-me.html">About-me</a>
+                            <a class="nav-link active" href="about-me.html">About-me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="project.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio Info</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -37,7 +40,7 @@
         <!-- Top Card -->
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <div class="card bg-gradient shadow-lg border-0 rounded-4">
                         <div class="card-body text-center p-5 text-dark">
                             <h2 class="display-4 fw-bold mb-3 text-dark">Over Mij</h2>
@@ -49,19 +52,29 @@
         </div>
 
         <div class="container mt-5">
-            <div class="row g-4">
-                <!-- About Me Column -->
-                <div class="col-md-4">
-                    <div class="card bg-gradient h-100 border-0 shadow-lg rounded-4">
-                        <img src="img/download.jpg" class="card-img-top" alt="Profile Image" style="height: 200px; object-fit: cover;">
-                        <div class="card-body p-4 text-dark">
-                            <h3 class="card-title text-center mb-4 fw-bold text-dark">Wie Ben Ik?</h3>
-                            <p class="card-text fs-5 text-dark">Hallo, mijn naam Jason Bodde en ik ben 17 jaar oud. Ik woon in Nederland met mijn ouders en mijn broertje. Ik zit momenteel op school en werk aan het behalen van mijn diploma software developer. Tot nu toe heb ik geleerd over JavaScript, PhP, Java, CSS en HTML en ik hoop in de toekomst meer programmeer talen te leren.</p>
+            <!-- About Me Column - Full Width -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="card bg-gradient border-0 shadow-lg rounded-4" style="min-height: 500px;">
+                        <div class="row g-0">
+                            <div class="col-md-4" style="min-height: 500px;">
+                                <img src="img/download.jpg" class="img-fluid w-100 h-100" alt="Profile Image" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-5 text-dark">
+                                    <h3 class="card-title text-center mb-4 fw-bold text-dark display-5">Wie Ben Ik?</h3>
+                                    <p class="card-text fs-4 text-dark">Hallo, mijn naam Jason Bodde en ik ben 17 jaar oud. Ik woon in Nederland met mijn ouders en mijn broertje. Ik zit momenteel op school en werk aan het behalen van mijn diploma software developer. Tot nu toe heb ik geleerd over JavaScript, PhP, Java, CSS en HTML en ik hoop in de toekomst meer programmeer talen te leren.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Skills and Extra Info Columns - Side by Side -->
+            <div class="row g-4">
                 <!-- Skills Column -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card bg-gradient h-100 border-0 shadow-lg rounded-4">
                         <div class="card-body p-4 text-dark">
                             <h3 class="card-title text-center mb-4 fw-bold text-dark">Mijn Vaardigheden</h3>
@@ -116,7 +129,7 @@
                     </div>
                 </div>
                 <!-- Extra Info Column -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card bg-gradient h-100 border-0 shadow-lg rounded-4">
                         <div class="card-body p-4 text-dark">
                             <h3 class="card-title text-center mb-4 fw-bold text-dark">Extra Informatie</h3>
