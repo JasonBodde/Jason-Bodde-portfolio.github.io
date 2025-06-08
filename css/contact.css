@@ -1,15 +1,12 @@
  
         body {
             font-family: 'Arial', sans-serif;
-            color: #ffffff;
-            background: linear-gradient(135deg, #1e1e2f, #2a2a3f);
             margin: 0;
             padding: 0;
         }
        
         .motivatie, .cvJason, .cvLink, .github, .email, .telefoonNummer, .githubLink {
             border: 2px solid rgba(255, 255, 255, 0.2);
-            color: #ffffff;
             text-align: center;
             background: linear-gradient(135deg, #6a11cb, #2575fc);
             border-radius: 10px;
@@ -22,12 +19,8 @@
             background: linear-gradient(135deg, #6a11cb, #2575fc);
         }
         .cvDownloadBtn{
-            margin-top: 25px;
-            color: white;
             background-color: rgb(140, 0, 255);
-            padding: 10px 20px;
             text-decoration: none;
-            border-radius: 5px;
             transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }

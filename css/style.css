@@ -6,15 +6,6 @@ body {
   padding: 0;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: auto;
-  border-radius: 10%;
-}
-
 nav {
   position: fixed;
   width: 100%;
@@ -54,13 +45,9 @@ nav > a:focus {
 }
 
 .about-me, .ab-me {
-  padding: 40px;
-  border-radius: 15px;
-  margin-bottom: 30px;
-  height: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 400px;
+  min-height: 475px;
 }
 
 .about-me:hover, .ab-me:hover {
@@ -68,37 +55,6 @@ nav > a:focus {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
-.about-me {
-  background: linear-gradient(135deg, #43cea2, #185a9d);
-}
-
-.ab-me {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-}
-
-.about-me h3, .ab-me h3 {
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
-
-.about-me p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.foto, .foto1 {
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.more-about {
-  background: linear-gradient(135deg, #1d976c, #93f9b9);
-}
-
-.foto, .foto1 {
-  background: linear-gradient(135deg, #ff512f, #dd2476);
-}
 
 .carousel-item img {
   border-radius: 10px;
