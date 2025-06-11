@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Homepage</title>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -21,13 +22,13 @@
                             <a class="nav-link" href="about-me.html">About-me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="project.html">Projects</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio Info</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -35,14 +36,13 @@
         </nav>
     </header>
     <main>
-        <!-- Portfolio Information Section -->
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <div class="card bg-secondary shadow-lg border rounded-4">
                         <div class="card-body text-center p-5 text-white">
                             <h2 class="display-4 fw-bold mb-3 text-white">Portfolio van Jason Bodde</h2>
-                            <p class="lead text-white">Welkom bij mijn portfolio je kunt hier mijn projecten en vaardigheden </p>
+                            <p class="lead text-white">Welkom bij mijn portfolio en neem een kijkje op mijn website.</p>
                         </div>
                     </div>
                 </div>
@@ -54,16 +54,20 @@
                 <!-- Profile Card and About Me Section -->
                 <div class="col-md-4">
                     <div class="card h-100 border rounded-4" style="width: 100%;">
-                        <img src="img/portfolio_foto1.jpg" class="card-img-top" alt="ik" style="height: 100%; object-fit: cover;">
+                        <img src="img/portfolio_foto1.jpg" class="card-img-top rounded-4" alt="ik" style="height: 100%; object-fit: cover;">
                     </div>
                 </div>
 
                 <!-- About Me Section -->
                 <div class="col-md-8">
                     <div class="about-me bg-dark p-4 rounded-4 h-100 border">
-                        <h2 class="text-white mb-4">Over Mij</h2>
-                        <p class="text-white">Hallo, mijn naam Jason Bodde en ik ben 17 jaar oud. Ik woon in Nederland met mijn ouders en mijn broertje. Ik zit momenteel op school en werk aan het behalen van mijn diploma software developer. Tot nu toe heb ik geleerd over JavaScript, PhP, Java, CSS en HTML en ik hoop in de toekomst meer programmeer talen te leren.</p>
-                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, reiciendis quod natus beatae amet repudiandae eligendi vero sed pariatur quis, dicta in voluptate repellat? Dolores tenetur deleniti enim repudiandae minus! Ex nemo alias autem</p>
+                        <h2 class="text-white mb-4 text-center fw-bold display-5">Over Mij</h2>
+                        <p class="text-white fs-4">Hallo, mijn naam Jason Bodde en ik ben een harde en georganiseerde persoon die altijd op tijd en nauwkeurig werkt. Ik streef ernaar om mijn taken met precisie en aandacht voor detail uit te voeren, en ik hecht veel waarde aan het behalen van deadlines. Mijn gestructureerde aanpak helpt mij om complexe projecten efficiënt te voltooien en kwalitatief hoogwaardige resultaten te leveren.</p>
+                        <div class="text-center mt-4">
+                            <a href="about-me.html" class="btn btn-primary btn-lg px-4 py-2 rounded-pill">
+                                <i class="bi bi-person me-2"></i>Lees Meer Over Mij
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,7 +149,7 @@
         </div>
 
         <!-- Projects Section -->
-        <div class="container mt-5">
+        <div class="container mt-5" id="projects">
             <div class="row  g-4 justify-content-center">
                 <div class="col-md-8">
                     <div class="card bg-secondary shadow-lg border rounded-4">
@@ -177,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <a href="https://github.com/ROCMondriaanTIN/st-sd-project-p01-hogerlager-JasonBodde" class="btn btn-primary" target="_blank">
+                                <a href="https://github.com/JasonBodde/Hoger-Lager" class="btn btn-primary" target="_blank">
                                     <i class="bi bi-github me-2"></i>Bekijk op GitHub
                                 </a>
                             </div>
@@ -201,7 +205,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <a href="https://github.com/ROCMondriaanTIN/st-sd-p02-project-build-a-game-berikeson" class="btn btn-primary" target="_blank">
+                                <a href="https://github.com/JasonBodde/build-your-game" class="btn btn-primary" target="_blank">
                                     <i class="bi bi-github me-2"></i>Bekijk op GitHub
                                 </a>
                             </div>
@@ -249,7 +253,7 @@
                                 </div>
                             </div>
                             <div class="text-center">
-                                <a href="https://github.com/JasonBodde/java-maze" class="btn btn-primary" target="_blank">
+                                <a href="https://github.com/JasonBodde/maze-java" class="btn btn-primary" target="_blank">
                                     <i class="bi bi-github me-2"></i>Bekijk op GitHub
                                 </a>
                             </div>
@@ -258,38 +262,70 @@
                 </div>
             </div>
         </div>
-        <!-- Contact and Info Grid -->
-        <div class="container mt-5">
-            <div class="row g-4 justify-content-center">
-                <!-- CV Link Square -->
-                <div class="col-md-5">
-                    <div class="cvLink h-100 d-flex align-items-center justify-content-center border bg-secondary rounded-4">
-                        <div class="text-center p-4">
-                            <h3>CV</h3>
-                            <a href="documenten/CV%20Jason%20Bodde.docx" target="_blank" class="btn btn-primary">
-                                download mijn CV
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- GitHub Square -->
-                <div class="col-md-5">
-                    <div class="github h-100 d-flex align-items-center justify-content-center border bg-secondary rounded-4">
-                        <div class="text-center p-4">
-                            <h3>GitHub</h3>
-                            <a href="https://github.com/JasonBodde" target="_blank" class="btn btn-primary">
-                                Bekijk mijn GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Contact Info Square -->
-                <div class="col-md-10">
-                    <div class="contact-info h-100 d-flex align-items-center justify-content-center border bg-secondary rounded-4">
-                        <div class="text-center p-4">
-                            <h3>Contact</h3>
-                            <p class="email mb-2" style="font-size: 2rem;">Email: boddejason@gmail.com</p>
-                            <p class="telefoonNummer" style="font-size: 2rem;">Tel: +31 0614832939</p>
+
+        <!-- Contact Section -->
+        <div class="bg-dark py-5" id="contact">
+            <div class="container">
+                <h1 class="display-4 fw-bold mb-3 text-white text-center">Neem Contact Op</h1>
+                <p class="lead text-white text-center mb-5">Ik sta open voor nieuwe kansen en samenwerkingen</p>
+            </div>
+
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <!-- Contact Form Card -->
+                    <div class="col-12 col-lg-10">
+                        <div class="card bg-secondary border shadow-lg rounded-4">
+                            <div class="card-body p-4 text-white text-center">
+                                <h3 class="card-title text-center mb-4 fw-bold text-white">Contact Informatie</h3>
+                                
+                                <div class="row g-4 justify-content-center">
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-column align-items-center mb-4 text-white">
+                                            <i class="bi bi-envelope-fill fs-4 mb-2 text-white"></i>
+                                            <div class="text-white text-center">
+                                                <h5 class="mb-1 text-white">Email</h5>
+                                                <p class="mb-0 text-white">boddejason@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-column align-items-center mb-4 text-white">
+                                            <i class="bi bi-telephone-fill fs-4 mb-2 text-white"></i>
+                                            <div class="text-white text-center">
+                                                <h5 class="mb-1 text-white">Telefoon</h5>
+                                                <p class="mb-0 text-white">+31 6 14832939</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-column align-items-center mb-4 text-white">
+                                            <i class="bi bi-github fs-4 mb-2 text-white"></i>
+                                            <div class="text-white text-center">
+                                                <h5 class="mb-1 text-white">GitHub</h5>
+                                                <a href="https://github.com/JasonBodde" class="text-decoration-none text-white" target="_blank">github.com/JasonBodde</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="d-flex flex-column align-items-center mb-4 text-white">
+                                            <i class="bi bi-linkedin fs-4 mb-2 text-white"></i>
+                                            <div class="text-white text-center">
+                                                <h5 class="mb-1 text-white">LinkedIn</h5>
+                                                <a href="https://www.linkedin.com/in/jason-bodde-735a56316/" class="text-decoration-none text-white" target="_blank">linkedin.com/in/jasonbodde</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center mt-4">
+                                    <a href="documenten/CV Jason Bodde.docx" class="btn btn-dark btn-lg px-4 py-2 rounded-pill me-3">
+                                        <i class="bi bi-download me-2"></i>Download CV
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -298,10 +334,10 @@
     </main>
     <footer class="bg-dark text-white text-center py-4 mt-5">
         <div class="container">
-            <p class="mb-0">&copy; 2025 Jason Bodde.</p>
+            <p class="mb-0">&copy; 2025 Made by Jason Bodde.</p>
         </div>
     </footer>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/main.js"></script>
 </body>
 </html>
